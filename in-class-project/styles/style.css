@@ -1,0 +1,46 @@
+/* Stylesheet - MA COM landing page (work in progress) */
+
+:root {
+    --brand-red: #a6192e;
+    --text-color: #222;
+    --bg-light: #f4f2ef;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #fff;
+}
+
+h1, h2 {
+    font-family: Merriweather, Georgia, serif;
+    line-height: 1.25;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-size: 1.15rem;
+}
+
+a {
+    color: var(--brand-red);
+}
+
+img,
+iframe {
+    max-width: 100%;
+    border: 0;
+}
