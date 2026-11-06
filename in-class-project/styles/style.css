@@ -153,3 +153,35 @@ iframe {
     object-fit: cover;
     object-position: center 35%;
 }
+
+
+/* Content sections */
+.section {
+    padding: 3.5rem 6%;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.two-columns > * {
+    flex: 1 1 320px;
+}
+
+
+/* Programme areas list */
+.areas-list {
+    margin: 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--brand-red);
+}
+
+.areas-list dt {
+    font-weight: 600;
+}
+
+.areas-list dd {
+    margin: 0 0 1rem;
+}
