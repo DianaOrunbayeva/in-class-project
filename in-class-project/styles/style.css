@@ -185,3 +185,22 @@ iframe {
 .areas-list dd {
     margin: 0 0 1rem;
 }
+
+
+/* Computer lab image */
+.lab-photo {
+    margin: 0;
+}
+
+.lab-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.lab-photo figcaption {
+    padding: 0.6rem 6%;
+    font-size: 0.9rem;
+    color: #666;
+}
