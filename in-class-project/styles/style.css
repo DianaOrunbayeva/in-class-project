@@ -204,3 +204,14 @@ iframe {
     font-size: 0.9rem;
     color: #666;
 }
+
+
+.section-alt {
+    background-color: var(--bg-light);
+}
+
+/* Media embeds */
+.video-wrapper iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
