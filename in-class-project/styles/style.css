@@ -215,3 +215,9 @@ iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
 }
+
+.map-wrapper iframe {
+    width: 100%;
+    min-height: 280px;
+    height: 100%;
+}
