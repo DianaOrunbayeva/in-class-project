@@ -221,3 +221,58 @@ iframe {
     min-height: 280px;
     height: 100%;
 }
+
+
+/* Useful links */
+.link-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
+}
+
+.link-col {
+    flex: 1 1 200px;
+}
+
+.link-col ul,
+.extra-links {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.link-col li,
+.extra-links li {
+    margin-bottom: 0.4rem;
+}
+
+
+/* Footer */
+.site-footer {
+    padding: 2.5rem 6% 1.5rem;
+    background-color: #202020;
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem 2rem;
+}
+
+.footer-grid p {
+    margin: 0;
+}
+
+.copyright {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #3d3d3d;
+    font-size: 0.8rem;
+    color: #888;
+}
