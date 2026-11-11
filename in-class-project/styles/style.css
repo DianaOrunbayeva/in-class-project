@@ -1,4 +1,4 @@
-/* Stylesheet - MA COM landing page (work in progress) */
+/* Stylesheet - MA COM landing page */
 
 :root {
     --brand-red: #a6192e;
@@ -160,6 +160,10 @@ iframe {
     padding: 3.5rem 6%;
 }
 
+.section-alt {
+    background-color: var(--bg-light);
+}
+
 .two-columns {
     display: flex;
     flex-wrap: wrap;
@@ -206,23 +210,6 @@ iframe {
 }
 
 
-.section-alt {
-    background-color: var(--bg-light);
-}
-
-/* Media embeds */
-.video-wrapper iframe {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-}
-
-.map-wrapper iframe {
-    width: 100%;
-    min-height: 280px;
-    height: 100%;
-}
-
-
 /* Useful links */
 .link-groups {
     display: flex;
@@ -243,6 +230,19 @@ iframe {
 .link-col li,
 .extra-links li {
     margin-bottom: 0.4rem;
+}
+
+
+/* Media embeds */
+.video-wrapper iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    min-height: 280px;
+    height: 100%;
 }
 
 
@@ -280,6 +280,11 @@ iframe {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .hero-text {
         padding: 2.5rem 6%;
     }
@@ -300,3 +305,5 @@ iframe {
         gap: 1.5rem;
     }
 }
+
+/* TODO: verify responsive margins on mobile */
